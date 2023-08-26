@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 1.8rem;
+}
+.nav-item .heading{
+    display: flex;
+    gap: 3rem;
+
+
+}
+#singUp-form{
+    color: white;
+    transform: translate(142px, 44px);
+}
+#singUp-form input{
+    border: none;
+    outline: none;
+    padding:0.8rem;
+    font-size: 1.4rem;
+    width: 52rem;
+    
+    border-bottom: 2px solid white;
+}
+#singUp-form input[type="text"],input[type="password"],input[type="email"]{
+    color: white;
+   
+  }
+#singup-btn{
+    color: black;
+    padding: 0.4rem 0.3rem;
+    background-color: white;
+    border: 1px solid white;
+    width: 8rem;
+    margin: 2rem 0.2rem;
+
+}
+.alert{
+    display: none;
+    margin: 2rem;
+    color: red;
+    font-size: 1.4rem;
+
+}
+.succesful{
+    display: none;
+    margin: 2rem;
+    color: blue;
+    font-size: 1.4rem;
+
+}

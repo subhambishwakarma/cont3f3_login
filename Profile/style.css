@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 1.8rem;
+    font-size: 1.5rem;
+}
+.nav-item .heading{
+    display: flex;
+    gap: 3rem;
+
+
+}
+.container{
+    font-size: 1.8rem;
+   
+}
+.container div{
+    padding: 1.5rem;
+}
+#logout-btn{
+    color: black;
+    padding: 0.4rem 0.3rem;
+    background-color: white;
+    border: 1px solid white;
+    width: 8rem;
+    margin: 2rem 0.2rem;
+
+}
